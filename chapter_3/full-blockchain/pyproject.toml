@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "full-blockchain"
+version = "0.1.0"
+description = ""
+authors = ["Dat T. Tran <datttrian@gmail.com>"]
+readme = "README.md"
+packages = [{include = "full_blockchain"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
